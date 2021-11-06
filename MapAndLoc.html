@@ -2,16 +2,20 @@
 <html>
 
 <head>
-  <title>Place Autocomplete</title>
+  <title>Guardian</title>
   <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css">
-
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="apple-touch-icon" sizes="180x180" href="public\images\apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="public\images\favicon-32x32.png">
+  <link rel="icson" type="image/png" sizes="16x16" href="public\images\favicon-16x16.png">
+  <link rel="manifest" href="public\images\site.webmanifest">
   <meta charset="utf-8">
   <style>
     /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
     #map {
-      height: 100%;
+      height: 75%;
     }
 
     /* Optional: Makes the sample page fill the window. */
@@ -20,6 +24,7 @@
       height: 100%;
       margin: 0;
       padding: 0;
+      background-color: black;
     }
 
     .controls {
@@ -35,45 +40,81 @@
 
     #origin-input,
     #destination-input {
-      background-color: #fff;
-      font-family: Roboto;
+      color: white;
+      background-color:black;
+      font-family: monospace;
       font-size: 15px;
       font-weight: 300;
       margin-left: 12px;
       padding: 0 11px 0 13px;
       text-overflow: ellipsis;
       width: 200px;
+      
     }
 
     #origin-input:focus,
     #destination-input:focus {
-      border-color: #4d90fe;
+      border-color:black;
     }
 
     #mode-selector {
       color: #fff;
-      background-color: #4d90fe;
+      background-color:black;
       margin-left: 12px;
       padding: 5px 11px 0px 11px;
     }
 
     #mode-selector label {
-      font-family: Roboto;
+      font-family: monospace;
       font-size: 13px;
       font-weight: 300;
     }
 
     li {
-      font-family: georgia;
+      font-family: monospace;
     }
   </style>
 </head>
 
 <body>
-  <div class="ui main container segment">
-    <h1 style="font-size: 75px; font-family: georgia">ETIHAAD</h1>
-    <h2 style="text-align: right; font-family: georgia">Because you must look before you leave!</h2>
+  <header class="text-white-600 body-font bg-pink-500">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round"
+                stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-pink-500 rounded-full"
+                viewBox="0 0 24 24">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+            </svg>
+            <span class="ml-3 text-xl text-white font-mono">Guardian</span>
+        </a>
+        <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+            <a class="mr-5 hover:text-white text-white">Home</a>
+            <a class="mr-5 hover:text-white text-white"></a>
+            <a class="mr-5 hover:text-white text-white">Dangerous Score</a>
+            <a class="mr-5 hover:text-white text-white">1 😁</a>
+            <a class="mr-5 hover:text-white text-white">5 😰</a>
+            <a class="mr-5 hover:text-white text-white"></a>
+        </nav>
+    </div>
+</header>
+<header class="text-white body-font bg-black">
+  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+      <a class="mr-5 hover:text-gray-900"><script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_EOl7yZ.json"  background="transparent"  speed="1"  style="width: 100px; height: 100px;"  loop  autoplay></lottie-player></a>
+      <a class="mr-5 hover:text-gray-900"></a>
+      <a class="mr-5 hover:text-gray-900"></a>
+      <a class="mr-5 hover:text-gray-900"><script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_veeohwtn.json"  background="transparent"  speed="1"  style="width: 100px; height: 100px;"  loop  autoplay></lottie-player>
+      </p></a>
+      <a class="mr-5 hover:text-white-900"><script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+      <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_uwos7l6e.json"  background="transparent"  speed="0.5"  style="width: 50px; height: 50px;"  loop  autoplay></lottie-player>Send your location to trusted contacts</a>
+      <div class="text-black">
+      <input type="tel" placeholder="Contact 1" > <a class="mr-5 hover:text-gray-900"></a> <input type="tel" placeholder="Contact 2"> <a class="mr-5 hover:text-gray-900"></a><input type="tel" placeholder="Contact 3"></div>
+    </nav>
+    
   </div>
+</header>
   <input id="origin-input" class="controls" type="text" placeholder="Enter an origin location">
 
   <input id="destination-input" class="controls" type="text" placeholder="Enter a destination location">
@@ -87,17 +128,17 @@
 
     <input type="radio" name="type" id="changemode-driving">
     <label for="changemode-driving">Driving</label>
-  </div>
+  </div>    
 
   <div id="map" class="ui container"></div>
   <div class="ui container">
     <h2>Choose the path with the least danger index for a safe travel!</h2>
   </div>
-
   <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDYix08CvzofgSO_7bJr3yr8VLqaEipyhI&libraries=places"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-
+  <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-left justify-left bg-pink-500 text-white relative z-10 title-font font-medium text-sm">1</div>
+  
   <script>
 
     var data = [
@@ -150,6 +191,7 @@
     /**
      * @constructor
     */
+   
     function AutocompleteDirectionsHandler(map) {
       this.map = map;
       this.originPlaceId = null;
@@ -259,7 +301,7 @@
             // size: new google.maps.Size(20, 32),
 
           };
-          color = ["purple", "yellow", "green", "blue", "pink"];
+          color = ["yellow", "orange", "brown", "red", "mustard-yellow"];
           //me.directionsDisplay.setDirections(response);
           console.log(response.routes.length);
           var dindex = [];
@@ -344,6 +386,7 @@
               }
 
             }
+   
 
             dindex[k] /= count;
             var div = document.createElement('div');
@@ -364,15 +407,16 @@
               response.routes[k].legs[0].duration.text;
             console.log(response.routes[k].legs[0]);
             infoWindow.setPosition(posInit);
-            var message = 'dangerIndex is :' + dindex[k];
+            var message = 'How dangerous it is on a scale of 1 to 5? :' + dindex[k];
             document.getElementById(safetyi).innerHTML = message;
             var dis = 'Route :' + k;
+
             //infoWindow.setContent(dis);
             //       infoWindow.open(map);
 
 
           }
-          //  console.log(dindex);
+          
           var routes = response.routes;
           for (var j = 0; j < routes.length; j++) {
             var points = routes[j].overview_path;
@@ -391,7 +435,6 @@
       navigator.geolocation.getCurrentPosition(initMap);
     });
   </script>
-
 </body>
 
 </html>
