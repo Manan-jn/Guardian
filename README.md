@@ -1,2 +1,2 @@
-# She-Her
+# She-They
 
