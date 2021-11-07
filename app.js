@@ -33,8 +33,11 @@ app.use(session({
 
 app.use(passport.initialize());
 app.use(passport.session());
-
-mongoose.connect("mongodb://localhost:27017/userDatabase", {
+// mongodb + srv://admin-manan:test123@cluster0.qq1qv.mongodb.net/
+// mongoose.connect("mongodb://localhost:27017/userDatabase", {
+// 	useNewUrlParser: true
+// });
+mongoose.connect("mongodb+srv://admin-manan:test123@cluster0.qq1qv.mongodb.net/userDatabase", {
 	useNewUrlParser: true
 });
 const userSchema = new mongoose.Schema({
@@ -251,6 +254,10 @@ app.get("/dashboard", function (req, res) {
 	res.sendFile(path.join(__dirname + '/Map.html'));
 });
 
-server.listen(3000, function () {
+let port = process.env.PORT;
+if (port == null || port == "") {
+	port = 3000;
+}
+server.listen(port, function () {
 	console.log(`Server started on http://localhost:3000/`);
 });
