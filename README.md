@@ -49,9 +49,9 @@ API> Google maps api, Twilio, DashaAI
 
 Made with 💜 by 
 
-[Manvi1203](https://github.com/Manvi1203) - Implemented the yoga pose evaluator and frontend web dev.
+[Manan-jn](https://github.com/Manan-jn) - Backend Web Developer and ML Lead. 
 
-[Manan-jn](https://github.com/Manan-jn) - Implemented the mood based music song recommendation system and backend web dev. 
+[Manvi1203](https://github.com/Manvi1203) -Frontend web developer and ML Lead.
 
 [GKSibal](https://github.com/GKSibal)- UI/UX Designer and worked in ideation of the project.
 
@@ -68,5 +68,5 @@ Give a ⭐️ if this project helped/inspired you!
 
 ## 📝 License
 
-Copyright © 2021 [Umang](https://github.com/Manan-jn/Umang).<br />
+Copyright © 2021 [Guardian](https://github.com/Manan-jn/She-Her).<br />
 This project is [MIT]() licensed.
