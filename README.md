@@ -16,7 +16,10 @@
 
 ### 🏠 [Homepage]()
 
-### ✨ [Prototype](https://www.figma.com/file/PJFU10RLMTZn6pPjh1E5tb/umang-team-library?node-id=387%3A4)
+  ## 🧪 Deployment
+
+https://safewithguardian.herokuapp.com/
+
 
 
 ### 💪 Motivation/Inspiration
@@ -25,9 +28,7 @@
 <p>
 We have been able to develop safety routes based on previous data records of crime statistics against women in Delhi. We have customized the google map api for our web app to show the safest route for women to travel to their destination calculated on the basis of the ‘danger index’.We have added the feature of SOS alert to emergency contacts and police along with the victims current location using Twilio. Above all, using DashaAI we have managed to add a feature of fake pre recorded phone call that will alert the attacker and prevent the women from any immediate harm.</p>
 
-## 🧪 Deployment
 
-https://safewithguardian.herokuapp.com/
 
 ## 📥 Tech Stacks 
 
