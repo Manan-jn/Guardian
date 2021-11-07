@@ -58,7 +58,7 @@ Made with 💜 by
 
 ## Author
 
-🏢 **Umang**
+🏢 **Guardian**
 
 - Github: [@Guardian](https://github.com/Manan-jn/She-Her)
 
