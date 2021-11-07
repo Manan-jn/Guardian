@@ -1,0 +1,83 @@
+####################################################################################################
+ai: Hello. My name is Dasha. Reply with coooool if safe and urghhh if unsafe?
+[
+  {
+    "type": "Intent",
+    "skill": "sentiment",
+    "weight": -1,
+    "likelihood": -1,
+    "location": {
+      "start": 0,
+      "end": 0
+    },
+    "intent": null,
+    "state": "neutral",
+    "sentenceType": "statement"
+  }
+]
+human: boy
+ai: Sorry, could you say it again?
+[
+  {
+    "type": "Intent",
+    "skill": "5041a1f15024e64171dd33b7f46ac22b:v2",
+    "weight": 0.79939,
+    "likelihood": 1,
+    "location": {
+      "start": -1,
+      "end": -1
+    },
+    "intent": "yes",
+    "state": "positive",
+    "sentenceType": "statement"
+  },
+  {
+    "type": "Intent",
+    "skill": "sentiment",
+    "weight": -1,
+    "likelihood": -1,
+    "location": {
+      "start": 0,
+      "end": 1
+    },
+    "intent": null,
+    "state": "neutral",
+    "sentenceType": "question"
+  }
+]
+human: who is
+human: 
+ai: Sorry, the connection dropped for a second. Could you say that again?
+[
+  {
+    "type": "Intent",
+    "skill": "5041a1f15024e64171dd33b7f46ac22b:v2",
+    "weight": 0.98703,
+    "likelihood": 1,
+    "location": {
+      "start": -1,
+      "end": -1
+    },
+    "intent": "cool",
+    "state": "positive",
+    "sentenceType": "statement"
+  },
+  {
+    "type": "Intent",
+    "skill": "sentiment",
+    "weight": -1,
+    "likelihood": -1,
+    "location": {
+      "start": 0,
+      "end": 0
+    },
+    "intent": null,
+    "state": "neutral",
+    "sentenceType": "statement"
+  }
+]
+human: cool
+human: 
+ai: It's okay to feel alone sometimes and the roads might be scary but you have me!
+human: 
+human: 
