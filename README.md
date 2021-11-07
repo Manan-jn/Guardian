@@ -60,7 +60,7 @@ Made with 💜 by
 
 🏢 **Umang**
 
-- Github: [@Umang](https://github.com/Manan-jn/Umang)
+- Github: [@Guardian](https://github.com/Manan-jn/She-Her)
 
 ## Show your support
 
