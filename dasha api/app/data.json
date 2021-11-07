@@ -1,0 +1,494 @@
+{
+  "version": "v2",
+  "intents": 
+  {
+    "yes": 
+    {
+      "includes": [
+        "yes",
+        "correct",
+        "sure",
+        "absolutely",
+        "yes siree bob",
+        "right",
+        "yep",
+        "you got it",
+        "I would",
+        "yeah",
+        "I would",
+        "I'd like that",
+        "I wouldn't mind",
+        "I would not mind",
+        "sure thing",
+        "yeah",
+        "yea",
+        "certainly",
+        "absolutely",
+        "totally",
+        "mhm",
+        "it is",
+        "that's right",
+        "that is right",
+        "uh huh",
+        "uh-huh"
+      ]
+    },
+    "no": {
+      "includes": [
+        "no",
+        "definitely not",
+        "wrong",
+        "incorrect",
+        "I do not",
+        "I don't",
+        "I would not",
+        "I wouldn't",
+        "nope",
+        "no, I'm okay",
+        "not right now",
+        "not this time",
+        "nah",
+        "not this moment",
+        "not now",
+        "not what I wanted",
+        "not what",
+        "it's not",
+        "it isn't",
+        "isn't"
+      ]
+    },
+    "uh":{
+      "includes":[
+        "urghhh","unsafe", "uh huh","no","oh"
+      ]
+    },
+
+    "cool": 
+    {
+      "includes": 
+      [
+        "cool","im good", "good", "fine"
+      ]
+    },
+
+
+    "what_is_no_term_agreement": {
+      "includes": [
+        "what is no term agreement",        
+        "no term agreement",
+        "what does no term agreement mean",
+        "what do you mean by no term agreement",
+        "could you explain what no term agreement means?"
+      ]
+    },
+    "what_needed_for_internet_setup": {
+      "includes": [
+        "what do I need to have Wi-Fi set up",
+        "what do I need to prepare for internet installation",
+        "what do I need to have for internet installation",
+        "how can I prepare for internet installation",
+        "prepare for internet setup",
+        "prepare for internet set up",
+        "what's required from me for the internet to be set up",
+        "what's required from me to have the Wi-Fi set up"
+
+      ]
+    },
+    "how_easy_to_setup_internet_myself": {
+      "includes": [
+        "how easy will it be to set up the Wi-Fi myself",
+        "is it difficult to set up the internet yourself",
+        "how difficult is it to set up the Wi-Fi yourself",
+        "is it easy to set up the internet",
+        "how easy is it to install the internet",
+        "how easy is it to install the Wi-Fi"
+
+      ]
+    },
+    "grace_period": {
+      "includes": [
+        "grace period",
+        "any grace period",
+        "is there a grace period",
+        "missed payment",
+        "miss a payment",
+        "miss my payment",
+        "payment is late",
+        "payment is delated",
+        "missed a couple days of payment",
+        "missed a few days of payment"
+      ]
+    },
+    "setup_timeline": {
+      "includes": [
+        "what is the setup timeline",
+        "what is the set up timeline",
+        "install the same day",
+        "installation happen the same day",
+        "will the Wi-Fi be installed the same day",
+        "will the internet be connected the same day",
+        "internet get installed the same day of the call",
+        "same day internet installation",
+        "same day wi-fi installation"
+      ]
+    },
+    "internet_outage_notification": {
+      "includes": [
+        "will I get any notification when there's internet outage",
+        "will I be notified if there's any upcoming internet outages",
+        "will I be notified if there's any upcoming service outages",
+        "notified if there are outages",
+        "let me know if there are any service outages",
+        "let me know if there is any service outage",
+        "let me know if there are any internet outages"
+      ]
+    },
+    "change_internet_plan": {
+      "includes": [
+        "change the internet plan",
+        "change the wi-fi plan",
+        "choose a different plan",
+        "pick a different plan",
+        "different plan",
+        "other payment plan",
+        "other internet payment plan",
+        "what if I ever want to pick a different plan",
+        "what if one day I decide to change internet plans"
+      ]
+    },
+    "tv_access_with_internet": 
+    {
+      "includes": 
+      [
+        "can I get TV access and internet access",
+        "I also need TV access",
+        "TV access with the internet plan",
+        "I want to have a TV plan with the internet plan"
+      ]
+    },
+
+    "after_twelve_mos_payment": 
+    {
+      "includes": 
+      [
+        "how much does it cost after twelve months",
+        "price after the year",
+        "price will be after 12 months",
+        "payment be after a year",
+        "in a year how much would this plan cost",
+        "what would be the price after 12"
+      ]
+    },
+    "after_twelve_mos_payment_internet": 
+    {
+      "includes": 
+      [
+        "how much does the internet cost after twelve months",
+        "internet price after the year",
+        "internet price will be after 12",
+        "payment for the internet be after a year",
+        "in a year how much would the internet plan cost",
+        "in a year how much would the internet plan be",
+        "how much the internet will cost after 12 months"
+      ]
+    },
+    "access_internet_through_tv": 
+    {
+      "includes": 
+      [
+        "can I have internet access through the TV",
+        "does the TV connect to the internet",
+        "is there an internet connection in the TV",
+        "is internet connected to the TV",
+        "can I access internet through the TV"
+      ]
+    },
+    "got_you": 
+    {
+      "includes": 
+      [
+        "i got you",
+        "got that",
+        "got what you mean",
+        "get what you mean",
+        "I understand",
+        "understood",
+        "gotcha",
+        "got it",
+        "OK got it",
+        "okay got it",
+        "i got it",
+        "alroght I got it",
+        "okay I got it",
+        "I got that",
+        "okay I got that"
+      ]
+    },
+    "thank_you": 
+    {
+      "includes": 
+      [
+        "thank you",
+        "thank you so much",
+        "thanks a lot",
+        "thank you very much",
+        "I appreciate it",
+        "I appreciate that",
+        "appreciate your help"
+      ]
+    },
+    "that_would_be_it": 
+    {
+      "includes": 
+      [
+        "that's all",
+        "that would be it",
+        "that would be all",
+        "that's it",
+        "yeah that's it",
+        "yeah that would be it"
+      ]
+    },
+
+    "need_help": 
+    {
+      "includes": 
+      [
+        "I need some help",
+        "I'd like some help",
+        "need help",
+        "need some help with"
+      ]
+    },
+
+    "bye": {
+      "includes": [
+        "bye",
+        "good bye",
+        "thanks bye",
+        "we're done",
+        "take it easy"
+      ]
+    }
+  },
+ 
+  "entities": {
+    "first_name": 
+    {
+      "open_set": true,
+      "values": 
+      [
+        {
+          "value": "John"
+        },
+        {
+          "value": "Bridgette"
+        },
+        {
+          "value": "James"
+        },
+        {
+          "value": "Sarah"
+        },
+        {
+          "value": "Jermaine"
+        },
+        {
+          "value": "Angelica"
+        },
+        {
+          "value": "Ahmed"
+        },
+        {
+          "value": "Tony"
+        },
+        {
+          "value": "Jon"
+        }
+      ],
+      "includes": 
+      [
+        "(Oscar)[first_name]",
+        "(Danielle)[first_name]",
+        "My name is (Sophie)[first_name]",
+        "My name is (Sarah)[first_name]",
+        "My name is (Cameron)[first_name]",
+        "My name is (Steven)[first_name]",
+        "My name is (Jessica)[first_name]",
+        "My name is (Jon)[first_name]",
+        "My name is (Ahmed)[first_name]",
+        "My first name is (Lisa)[first_name]"
+      ]
+    },
+
+    "number_of_devices": 
+    {
+      "open_set": true,
+      "values": 
+      [
+        {
+          "value": "one",
+          "synonyms": 
+          [
+            "1"
+          ]
+        },
+        {
+          "value": "two",
+          "synonyms": 
+          [
+            "2"
+          ]
+        },
+        {
+          "value": "three",
+          "synonyms": 
+          [
+            "3"
+          ]
+        },
+        {
+          "value": "four",
+          "synonyms": 
+          [
+            "4"
+          ]
+        },
+        {
+          "value": "five",
+          "synonyms": 
+          [
+            "5"
+          ]
+        },
+        {
+          "value": "six",
+          "synonyms": 
+          [
+            "6"
+          ]
+        },
+        {
+          "value": "seven",
+          "synonyms": 
+          [
+            "7"
+          ]
+        },
+        {
+          "value": "eight",
+          "synonyms": 
+          [
+            "8"
+          ]
+        }
+      ],
+      "includes": 
+      [
+        "I'll have (one)[number_of_devices] device",
+        "I'll have (two)[number_of_devices] devices",
+        "(10)[number_of_devices] devices"
+      ]
+    },
+
+    "last_name": 
+    {
+      "open_set": true,
+      "values": 
+      [
+        {
+          "value": "Dupri"
+        },
+        {
+          "value": "Thompson"
+        },
+        {
+          "value": "Snow"
+        },
+        {
+          "value": "Montana"
+        },
+        {
+          "value": "Bond"
+        },
+        {
+          "value": "Patel"
+        },
+        {
+          "value": "Holden"
+        }
+      ],
+      "includes": 
+      [
+        "This is (James)[first_name] (Holden)[last_name]",
+        "I'm (Jon)[first_name] (Snow)[last_name]",
+        "My name is (Ahmed)[first_name] (Snow)[last_name]",
+        "(Jermaine)[first_name] (Dupri)[last_name]",
+        "Hi there, my name is (Bridgette)[first_name] (Patel)[last_name]",
+        "Hi there, I'm (Ahmed)[first_name] (Montana)[last_name]",
+        "The name is (Holden)[last_name], (James)[first_name], (Holden)[last_name]",
+        "(Bond)[last_name], (James)[first_name], (Bond)[last_name]"
+      ]
+    },
+
+    "zip_code": 
+    {
+      "open_set": true,
+      "values": 
+      [
+        {
+          "value": "11203",
+          "synonyms": 
+          [
+            "eleven two oh three",
+            "one one two zero three"
+          ]
+        },
+        {
+          "value": "10020",
+          "synonyms": 
+          [
+            "one zero zero twenty",
+            "one hundred twenty",
+            "one zero zero two zero",
+            "one oh oh two oh"
+          ]
+        },
+        {
+          "value": "90210",
+          "synonyms": 
+          [
+            "ninety two ten",
+            "nine zero two one zero",
+            "nine oh two one oh"
+          ]
+        },
+        {
+          "value": "72394",
+          "synonyms": 
+          [
+            "seventy two three nine four",
+            "seven two three nine four",
+            "seventy two three hundred ninety four"
+          ]
+        },
+        {
+          "value": "11283",
+          "synonyms": 
+          [
+            "one one two eight three",
+            "eleven two eighty three"
+          ]
+        }
+      ],
+      "includes": [
+        "my zip code is (10029)[zip_code]",
+        "zip code (90384)[zip_code]",
+        "(i6278)[zip_code]",
+        "(93848)[zip_code] is the zip code",
+        "(45385)[zip_code] is my zip code",
+        "it's (23084)[zip_code]"
+      ]
+    }
+  }
+}

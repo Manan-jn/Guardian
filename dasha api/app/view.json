@@ -1,0 +1,332 @@
+{
+  "node::track_parcel": {
+    "common.position": {
+      "x": 600,
+      "y": 23
+    }
+  },
+  "node::missed_delivery": {
+    "common.position": {
+      "x": 600,
+      "y": 169
+    }
+  },
+  "node::where_is_point": {
+    "common.position": {
+      "x": 600,
+      "y": 315
+    }
+  },
+  "node::return_shipment": {
+    "common.position": {
+      "x": 600,
+      "y": 461
+    }
+  },
+  "node::root": {
+    "common.position": {
+      "x": 0,
+      "y": -178.4280316507194
+    }
+  },
+  "node::schedule_haircut": {
+    "common.position": {
+      "x": 600,
+      "y": -177.27049321611713
+    }
+  },
+  "node::cancel_appt": {
+    "common.position": {
+      "x": 0,
+      "y": 448.7260717836093
+    }
+  },
+  "node::answering_machine": {
+    "common.position": {
+      "x": 0,
+      "y": 315
+    }
+  },
+  "node::i_will_call_back": {
+    "common.position": {
+      "x": 0,
+      "y": 461
+    }
+  },
+  "node::can_hear_you": {
+    "common.position": {
+      "x": 0,
+      "y": 607
+    }
+  },
+  "node::dont_understand_hangup_params": {
+    "common.position": {
+      "x": 0,
+      "y": 753
+    }
+  },
+  "node::dont_understand": {
+    "common.position": {
+      "x": 0,
+      "y": 919
+    }
+  },
+  "node::dont_understand_preprocessor": {
+    "common.position": {
+      "x": 0,
+      "y": 1085
+    }
+  },
+  "node::hello": {
+    "common.position": {
+      "x": 0,
+      "y": 1251
+    }
+  },
+  "node::hello_preprocessor": {
+    "common.position": {
+      "x": 0,
+      "y": 1417
+    }
+  },
+  "node::i_am_robot": {
+    "common.position": {
+      "x": 0,
+      "y": 1563
+    }
+  },
+  "node::repeat_preprocessor": {
+    "common.position": {
+      "x": 0,
+      "y": 1709
+    }
+  },
+  "node::repeat_hangup_params": {
+    "common.position": {
+      "x": 0,
+      "y": 1855
+    }
+  },
+  "node::repeat": {
+    "common.position": {
+      "x": 0,
+      "y": 2021
+    }
+  },
+  "node::ping": {
+    "common.position": {
+      "x": 0,
+      "y": 2207
+    }
+  },
+  "node::wait": {
+    "common.position": {
+      "x": 0,
+      "y": 2373
+    }
+  },
+  "node::sorry_wont_call": {
+    "common.position": {
+      "x": 0,
+      "y": 2519
+    }
+  },
+  "node::swear_words": {
+    "common.position": {
+      "x": 0,
+      "y": 2665
+    }
+  },
+  "node::hangup": {
+    "common.position": {
+      "x": 0,
+      "y": 2811
+    }
+  },
+  "node::dont_understand_hangup": {
+    "common.position": {
+      "x": 600,
+      "y": 919
+    }
+  },
+  "node::hello_hangup": {
+    "common.position": {
+      "x": 600,
+      "y": 1251
+    }
+  },
+  "node::repeat_or_ping_hangup": {
+    "common.position": {
+      "x": 600,
+      "y": 2114
+    }
+  },
+  "node::cancel_appt_do": {
+    "common.position": {
+      "x": 600,
+      "y": 610.4050916117368
+    }
+  },
+  "node::schedule_haircut_do": {
+    "common.position": {
+      "x": 0,
+      "y": -300.91680261252463
+    }
+  },
+  "node:confirmIntent:confirm": {
+    "common.position": {
+      "x": 0,
+      "y": -240.4250214556137
+    }
+  },
+  "node::confirm_intent": {
+    "common.position": {
+      "x": 0,
+      "y": -197.65710898514396
+    }
+  },
+  "node::repeat_question": {
+    "common.position": {
+      "x": 0,
+      "y": -157.20097556713202
+    }
+  },
+  "node::bye": {
+    "common.position": {
+      "x": -1.7742934874093907,
+      "y": 659.8066702311282
+    }
+  },
+  "node::weekday": {
+    "common.position": {
+      "x": -365.58077266352177,
+      "y": -239.30618075505814
+    }
+  },
+  "node:confirmIntent:confirm_intent": {
+    "common.position": {
+      "x": -1.155889526228912,
+      "y": -27.74134862949389
+    }
+  },
+  "node::bye_bye": {
+    "common.position": {
+      "x": 1123.4596555152089,
+      "y": 629.2701722423955
+    }
+  },
+  "node::confirm": {
+    "common.position": {
+      "x": -360.4317476964299,
+      "y": 20.596099868367425
+    }
+  },
+  "node::can_help": {
+    "common.position": {
+      "x": -2.313378762683304,
+      "y": 562.4391074051279
+    }
+  },
+  "node::this_is_barbershop": {
+    "common.position": {
+      "x": 1125.0927732020245,
+      "y": 396.60826592795286
+    }
+  },
+  "node::schedule_weekday": {
+    "common.position": {
+      "x": -3.324655968969623,
+      "y": 226.04856540572936
+    }
+  },
+  "node::schedule_haircut_day": {
+    "common.position": {
+      "x": 1119.9227440342988,
+      "y": 88.91042820423677
+    }
+  },
+  "node::confirm_appointment": {
+    "common.position": {
+      "x": 598.069744017711,
+      "y": 373.76718419481983
+    }
+  },
+  "node::can_help_then": {
+    "common.position": {
+      "x": 600,
+      "y": 598.4173972978803
+    }
+  },
+  "node::soda_on_tap": {
+    "common.position": {
+      "x": -2.313378762683304,
+      "y": 360.31105694442897
+    }
+  },
+  "node::no_dice_bye": {
+    "common.position": {
+      "x": 347.1887066094507,
+      "y": 891.3474507751612
+    }
+  },
+  "node::by_card": {
+    "common.position": {
+      "x": 1749.6823983416327,
+      "y": 695.2647425475834
+    }
+  },
+  "node::in_store": {
+    "common.position": {
+      "x": 1706.895019089709,
+      "y": 269.1685831400677
+    }
+  },
+  "node::payment": {
+    "common.position": {
+      "x": 1420.1845439151946,
+      "y": 515.5715794674354
+    }
+  },
+  "node::repeat_order": {
+    "common.position": {
+      "x": 600,
+      "y": 431.1716887273817
+    }
+  },
+  "node::confirm_food_order": {
+    "common.position": {
+      "x": 1058.8806578965587,
+      "y": 301.6512281849953
+    }
+  },
+  "node::connect_me": {
+    "common.position": {
+      "x": 0,
+      "y": 259.85577507045275
+    }
+  },
+  "node::delivery": {
+    "common.position": {
+      "x": -5.794392602543471,
+      "y": 79.98583205010397
+    }
+  },
+  "node::place_order": {
+    "common.position": {
+      "x": 600,
+      "y": 168.25778070148075
+    }
+  },
+  "node::success_bye": {
+    "common.position": {
+      "x": 2080,
+      "y": 465.787657982575
+    }
+  },
+  "node::pay_in_store": {
+    "common.position": {
+      "x": 600,
+      "y": -57.834469067082594
+    }
+  }
+}

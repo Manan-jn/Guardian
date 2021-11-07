@@ -1,0 +1,242 @@
+{
+  "default": 
+  {
+    "voiceInfo": 
+    {
+      "lang": "en-US",
+      "speaker": "default",
+      "speed": 0.96
+    },
+    
+    "phrases": 
+    {
+
+      "place_order": 
+      {
+        "first": 
+        [
+          {
+            "text": "And what can I get for you today? Let me know if you want me to tell you about our new & seasonal offers."
+          }
+        ],
+        "repeat": 
+        {
+          "random": 
+          [
+            [
+              {
+                "text": "So. What can I get for you?"
+              }
+            ],
+            [
+              {
+                "text": "What would you like to get?"
+              }
+            ],
+            [
+              {
+                "text": "What can I get you?"
+              }
+            ]
+          ]
+        }
+      },
+
+        "place_order_catering": 
+      {
+        "first": 
+        [
+          {
+            "text": "And what can I get for you today?"
+          }
+        ],
+        "repeat": 
+        {
+          "random": 
+          [
+            [
+              {
+                "text": "So. What can I get for you?"
+              }
+            ],
+            [
+              {
+                "text": "What would you like to get?"
+              }
+            ],
+            [
+              {
+                "text": "What can I get you?"
+              }
+            ]
+          ]
+        }
+      },
+
+        "question_1": {
+          "first": [
+            {
+              "text": "Perfect, thank you. First question. How would you rate the bank employees with whom you interacted? Please use the scale of 1 to 5."
+            }
+          ],
+          "repeat": [
+            {
+              "text": "I was saying. How would you rate the bank employees with whom you interacted. Please rate as 1 to 5."
+            }
+          ]
+        },
+        "i_will_call_back": [
+          {
+            "text": "Okay, I'll call you later. Bye!"
+          }
+        ],
+        "call_back": [
+          {
+            "text": "Okay, I'll call you back later. Bye!"
+          }
+        ],
+        "hello": {
+          "random": [
+            [
+              {
+                "text": "Hello"
+              }
+            ],
+            [
+              {
+                "text": "Umm, hello?"
+              }
+            ],
+            [
+              {
+                "text": "Are you there?"
+              }
+            ]
+          ]
+        },
+        "when_call_back": [
+          {
+            "text": "When can I call you back?"
+          }
+        ],
+        "i_will_wait": 
+        {
+          "random": [
+            [
+              {
+                "text": "Okay, I'll wait"
+              }
+            ],
+            [
+              {
+                "text": "Sure, I'll wait"
+              }
+            ],
+            [
+              {
+                "text": "Okay, no problem!"
+              }
+            ]
+          ]
+        },
+        "i_can_hear_you": [
+          {
+            "text": "Yes, I hear you"
+          }
+        ],
+        "dont_understand": 
+        {
+          "random": [
+            [
+              {
+                "text": "Sorry, could you say it again?"
+              }
+            ],
+            [
+              {
+                "text": "Sorry, the connection dropped for a second. Could you say that again?"
+              }
+            ],
+            [
+              {
+                "text": "What's that?"
+              }
+            ],
+            [
+              {
+                "text": "Could you say it one more time?"
+              }
+            ]
+          ]
+        },
+
+        "dont_understand_hangup": 
+        [
+          {
+            "text": "I'm sorry I can barely hear you. I'll try to call you later! Bye!"
+          }
+        ],
+        "dont_understand_forward": [
+          {
+            "text": "I'm sorry, let me transfer you to another agent. Please stand by!"
+          }
+        ],
+        "mhm": [
+          {
+            "text": "Mgm..."
+          }
+        ],
+        "yes_i_am_a_robot": [
+          {
+            "text": "Actually I am an advanced Artificial Intelligence. Just don't tell my boss or I'll be out of a job."
+          }
+        ],
+        "i_said": [
+          {
+            "text": " "
+          }
+        ],
+        "is_that_all": [
+          {
+            "text": "Is that all?"
+          }
+        ],
+        "repeat_question": [
+          {
+            "text": "Can you repeat the question, please?"
+          }
+        ]
+      
+    },
+
+      "types": {},
+      "macros": 
+      {
+        "order": {},
+        "place_order": {},
+        "place_order_catering": {},
+        "transition": {},
+        "i_will_call_back": {},
+        "see_you_soon": {},
+        "hello": {},
+        "when_callback": {},
+        "i_said": {},
+        "sorry_wont_call": {},
+        "i_will_wait": {},
+        "i_can_hear_you": {},
+        "dont_understand": {},
+        "dont_understand_hangup": {},
+        "dont_understand_forward": {},
+        "mhm": {},
+        "yes_i_am_a_robot": {},
+        "is_that_all": {},
+        "greeting": {},
+        "name": {},
+        "will_help": {},
+        "how_much": {},
+        "confirm_food_order": {},
+        "repeat_question": {}
+      }
+    
+  }
+}
