@@ -248,7 +248,7 @@ app.post("/login", function (req, res) {
 });
 
 app.get("/dashboard", function (req, res) {
-	res.sendFile(path.join(__dirname + '/Map.html'));
+	res.sendFile(path.join(__dirname + '/main.html'));
 });
 
 server.listen(3000, function () {
