@@ -7,6 +7,4 @@ btn.addEventListener("click", function () {
     socket.emit('sendLoc', myLongitude.innerHTML, myLatitude.innerHTML);
     // console.log(myLatitude.innerHTML);
 })
-
-
 // socket.emit('send', message);
