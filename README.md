@@ -1,5 +1,4 @@
-<p align="center"><img align="center" src="![image](https://user-images.githubusercontent.com/77841499/136694972-7b5f5e4e-36d7-4998-9fe7-b8b7c8b93062.png)
-" height="128" /></p>
+<p align="center"><img align="center" src="https://user-images.githubusercontent.com/77841499/136694972-7b5f5e4e-36d7-4998-9fe7-b8b7c8b93062.png" height="128" /></p>
 <h1 align="center">Welcome to Guardian💗</h1>
 <p align="center">
   <a href="" target="_blank">
